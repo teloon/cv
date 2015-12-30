@@ -1,1 +1,1 @@
-## Credit to `http://jsonresume.org/`
+## Credit to [jsonresume.org](http://jsonresume.org/)
