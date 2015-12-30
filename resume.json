@@ -1,0 +1,169 @@
+{
+  "basics": {
+    "name": "Yan Wu",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "telooon@gmail.com",
+    "website": "http://wyan.im",
+    "location": {
+      "address": "",
+      "postalCode": "CA 94555",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "teloon",
+        "url": "https://twitter.com/teloon"
+      },
+      {
+        "network": "Github",
+        "username": "teloon",
+        "url": "https://github.com/teloon"
+      }
+    ]
+  },
+  "work": [
+      {
+      "company": "Tank Exchange Inc",
+      "position": "Co-Founder & Software Engineer",
+      "startDate": "11/25/2015",
+      "endDate": "now",
+      "highlights": [
+        "full stack engineer"
+      ]
+    },
+    {
+      "company": "Facebook Inc",
+      "position": "Software Engineer(Newsfeed Ranking)",
+      "website": "https://facebook.com",
+      "startDate": "10/07/2013",
+      "endDate": "11/24/2015",
+      "highlights": [
+        "full stack work from newsfeed backend services with C++(60%) to PHP/HACK web service(20%) and Android client app(10%)",
+        "Build worflow to automatically select best features for newsfeed ranking model, which greatly simplify the feature selection process and increase the frequency of model update and model freshness. (C++, Python, HACK, Hive)",
+        "Create rsvp prediction model for event join action in newsfeed, which increased more than 50% of rsvp events happening in newsfeed overtime and contributed a big part to hit the milestone of 450M people using Facebook Events[bit.ly/event450m]. (C++, HACK, Python, Hive)",
+        "Facebook Android client development: features for realtime/live newsfeed, like live comments and live likes, which drives the newsfeed experience and engagement; also build newsfeed stories with horizontal scrolling. (Android)"
+      ]
+    },
+    {
+      "company": "Baidu Inc",
+      "position": "Software Engineer Intern (Ads Ranking)",
+      "website": "https://baidu.com",
+      "startDate": "07/2012",
+      "endDate": "09/2012",
+      "summary": "Full-time intern at Baidu(ECom Department), which is the biggest search engine provider in China.",
+      "highlights": [
+        "Explore user targeting and interest targeting features for ads CTR prediction model. Leverage social media, like Weibo(Tweet-like service), to do user profiling by topic models, like LDA."
+      ]
+    },
+    {
+      "company": "YuanJiang Inc.",
+      "position": "Software Engineer",
+      "startDate": "10/2009",
+      "endDate": "04/2010",
+      "summary": "YuanJiang was a newly founded startup back then. I was the 1st employee",
+      "highlights": [
+        "Develop duplicate document detection system. (https://github.com/teloon/simpleDDD) (C++, Python and tokyo cabinet)",
+        "Full text extraction for web pages by analyzing text density. (python)",
+        "Migrate existing web service under Django framework."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Fudan University",
+      "area": "Information Retrieval, Data Mining, Machine Learning",
+      "studyType": "Master",
+      "startDate": "09/01/2010",
+      "endDate": "07/01/2013"
+    },
+    {
+      "institution": "Shanghai Jiao Tong University",
+      "area": "Computer Science",
+      "studyType": "Bechalor",
+      "startDate": "09/01/2006",
+      "endDate": "06/30/2013"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Learning Hash Codes for Efficient Content Reuse Detection",
+      "publisher": "SIGIR",
+      "releaseDate": "2012",
+      "website": "http://dl.acm.org/citation.cfm?id=2348339"
+    },
+    {
+      "name": "Efficient Near-Duplicate Detection for QA Forum",
+      "publisher": "IJCNLP",
+      "releaseDate": "2011",
+      "website": "http://aclweb.org/anthology/I/I11/"
+    },
+    {
+      "name": "Selecting Expansion Terms as a Set Via Integer Linear Programming",
+      "publisher": "CIKM",
+      "releaseDate": "2012",
+      "website": "http://www.cikm2012.org/accepted_papers.php"
+    } 
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "level": "Proficient",
+      "keywords": [
+        "Python",
+        "Java",
+        "C++",
+        "PHP/HACK",
+        "Thrift",
+        "Flask",
+        "Django"
+      ]
+    },
+    {
+      "name": "Web Frontend Development",
+      "level": "Small to medium project",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Android Development",
+      "level": "3 month of prior experience",
+      "keywords": [
+        "Android",
+        "BUCK"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Tennis",
+        "Snowboarding",
+        "soccer"
+      ]
+    },
+    {
+      "name": "Games",
+      "keywords": [
+        "Dota 1&2"
+      ]
+    }
+  ]
+}
