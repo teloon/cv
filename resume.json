@@ -4,57 +4,47 @@
     "label": "Software Engineer",
     "picture": "",
     "email": "telooon@gmail.com",
-    "website": "http://wyan.im",
     "location": {
       "address": "",
       "postalCode": "CA 94555",
       "city": "San Francisco",
       "countryCode": "US",
       "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "teloon",
-        "url": "https://twitter.com/teloon"
-      },
-      {
-        "network": "Github",
-        "username": "teloon",
-        "url": "https://github.com/teloon"
-      }
-    ]
+    }
   },
   "work": [
-      {
-      "company": "Tank Exchange Inc",
-      "position": "Co-Founder & Software Engineer",
-      "startDate": "11/25/2015",
-      "endDate": "now",
+    {
+      "company": "Tank Exchange",
+      "website": "https://tankwallet.com",
+      "position": "Co-Founder & Senior Software Engineer",
+      "startDate": "2015-11-25",
       "highlights": [
-        "full stack engineer"
+        "As one of the founding team members, design and build multiple backend services from scratch and support fast iterations of our product.",
+        "Set up the DepOps tools for the team: Dockerize every service for the ease of local dev, testing and deploy; set up CI system to automatically rolling out change based on branches; Heavily use AWS ecosystem for load balancer, logging, monitoring, alerting etc.",
+        "Build RESTful API service for our main product TankWallet to support auth, search(keywords&geo), payment and data CRUD. (Python, lask, mysql)",
+        "Build CRUD API service for our trading app using GraphQL. Implement a trading client using FIX protocol. (golang, GraphQL, FIX)",
+        "Build an exchange service with order matching engine which is fault tolerant by replay feature. Build logging pipelines with JSON format logs, so we can easily derive metrics or alerts.(C++, FIX, dynamoDB)",
+        "Build a MarketMaker service to match orders in our exchange in order to cold-start our product.(C++)"
       ]
     },
     {
-      "company": "Facebook Inc",
-      "position": "Software Engineer(Newsfeed Ranking)",
-      "website": "https://facebook.com",
-      "startDate": "10/07/2013",
-      "endDate": "11/24/2015",
+      "company": "Facebook(Newsfeed Ranking Team)",
+      "position": "Software Engineer",
+      "startDate": "2013-10-07",
+      "endDate": "2015-11-24",
       "highlights": [
-        "full stack work from newsfeed backend services with C++(60%) to PHP/HACK web service(20%) and Android client app(10%)",
-        "Build worflow to automatically select best features for newsfeed ranking model, which greatly simplify the feature selection process and increase the frequency of model update and model freshness. (C++, Python, HACK, Hive)",
-        "Create rsvp prediction model for event join action in newsfeed, which increased more than 50% of rsvp events happening in newsfeed overtime and contributed a big part to hit the milestone of 450M people using Facebook Events[bit.ly/event450m]. (C++, HACK, Python, Hive)",
-        "Facebook Android client development: features for realtime/live newsfeed, like live comments and live likes, which drives the newsfeed experience and engagement; also build newsfeed stories with horizontal scrolling. (Android)"
+        "Full stack work: newsfeed ranking system with C++(60%), PHP/HACK web service(20%) and Android client app(10%)",
+        "Build worflow to automatically select best features for newsfeed ranking model, which greatly simplifies the feature selection process and increase the frequency of model update and model freshness. (C++, Python, HACK, Hive)",
+        "Build rsvp prediction model for event stories in newsfeed, which increased 50% of the number of people joining events in newsfeed overtime and contributed a big part to hit the milestone of 450M people using Facebook Events[bit.ly/event450m]. (C++, HACK, Python, Hive)",
+        "Build live comments and live likes features for newsfeed, which drive up the newsfeed experience and engagement.(Android)",
+        "Build horizontal scrolling feature in newsfeed which requires end-to-end change. Push the project forward with PM, designer and other android developers. (Android, C++)"
       ]
     },
     {
       "company": "Baidu Inc",
       "position": "Software Engineer Intern (Ads Ranking)",
-      "website": "https://baidu.com",
-      "startDate": "07/2012",
-      "endDate": "09/2012",
-      "summary": "Full-time intern at Baidu(ECom Department), which is the biggest search engine provider in China.",
+      "startDate": "2012-07-01",
+      "endDate": "2012-09-01",
       "highlights": [
         "Explore user targeting and interest targeting features for ads CTR prediction model. Leverage social media, like Weibo(Tweet-like service), to do user profiling by topic models, like LDA."
       ]
@@ -62,13 +52,10 @@
     {
       "company": "YuanJiang Inc.",
       "position": "Software Engineer",
-      "startDate": "10/2009",
-      "endDate": "04/2010",
-      "summary": "YuanJiang was a newly founded startup back then. I was the 1st employee",
+      "startDate": "2009-10-01",
+      "endDate": "2010-04-01",
       "highlights": [
-        "Develop duplicate document detection system. (https://github.com/teloon/simpleDDD) (C++, Python and tokyo cabinet)",
-        "Full text extraction for web pages by analyzing text density. (python)",
-        "Migrate existing web service under Django framework."
+        "Develop full text extraction system and duplicate document detection system. Build web service using Django (C++, Python)"
       ]
     }
   ],
@@ -77,35 +64,32 @@
       "institution": "Fudan University",
       "area": "Information Retrieval, Data Mining, Machine Learning",
       "studyType": "Master",
-      "startDate": "09/01/2010",
-      "endDate": "07/01/2013"
+      "startDate": "2010-09-01",
+      "endDate": "2013-07-01"
     },
     {
       "institution": "Shanghai Jiao Tong University",
       "area": "Computer Science",
       "studyType": "Bechalor",
-      "startDate": "09/01/2006",
-      "endDate": "06/30/2013"
+      "startDate": "2006-09-01",
+      "endDate": "2013-06-30"
     }
   ],
   "publications": [
     {
       "name": "Learning Hash Codes for Efficient Content Reuse Detection",
       "publisher": "SIGIR",
-      "releaseDate": "2012",
-      "website": "http://dl.acm.org/citation.cfm?id=2348339"
+      "releaseDate": "2012"
     },
     {
       "name": "Efficient Near-Duplicate Detection for QA Forum",
       "publisher": "IJCNLP",
-      "releaseDate": "2011",
-      "website": "http://aclweb.org/anthology/I/I11/"
+      "releaseDate": "2011"
     },
     {
       "name": "Selecting Expansion Terms as a Set Via Integer Linear Programming",
       "publisher": "CIKM",
-      "releaseDate": "2012",
-      "website": "http://www.cikm2012.org/accepted_papers.php"
+      "releaseDate": "2012"
     } 
   ],
   "skills": [
@@ -114,17 +98,19 @@
       "level": "Proficient",
       "keywords": [
         "Python",
-        "Java",
+        "Golang",
         "C++",
         "PHP/HACK",
         "Thrift",
         "Flask",
-        "Django"
+        "Django",
+        "Java",
+        "GraphQL"
       ]
     },
     {
       "name": "Web Frontend Development",
-      "level": "Small to medium project",
+      "level": "Small project",
       "keywords": [
         "HTML",
         "CSS",
@@ -135,34 +121,7 @@
       "name": "Android Development",
       "level": "3 month of prior experience",
       "keywords": [
-        "Android",
-        "BUCK"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Chinese",
-      "fluency": "Native"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Sports",
-      "keywords": [
-        "Tennis",
-        "Snowboarding",
-        "soccer"
-      ]
-    },
-    {
-      "name": "Games",
-      "keywords": [
-        "Dota 1&2"
+        "Android"
       ]
     }
   ]
