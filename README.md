@@ -5,7 +5,7 @@
 
 The output html will automatically be re-rendered if any source files are changed
 
-## Guidance to fix in one page
+## Guidance to fit in one page
 
 When adding more content, need to adjust to fix in one page. Some places to consider:
 
