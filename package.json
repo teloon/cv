@@ -1,0 +1,21 @@
+{
+  "name": "jsonresume-theme-onepage-yan",
+  "version": "0.0.3",
+  "description": "a modification of onepage theme",
+  "author": "Yan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teloon/cv"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4",
+    "css": "2.2.x"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "main": "index.js",
+  "devDependencies": {}
+}
