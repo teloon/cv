@@ -7,7 +7,7 @@ The output html will automatically be re-rendered if any source files are change
 
 ## Guidance to fit in one page
 
-When adding more content, need to adjust to fix in one page. Some places to consider:
+When adding more content, need to adjust to fit in one page. Some places to consider:
 
 1. `height` of `.separator` in each secion.
 2. `.sectionLine`
