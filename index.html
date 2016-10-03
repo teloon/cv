@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 	<head>
-	
+
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
-	
+
 	<title>Yan Wu</title>
 
 	<style>
@@ -54,6 +54,11 @@ a {
   font-size: 12px;
 }
 
+.sectionBlock {
+  display: flex;
+  width: 100%;
+}
+
 .sectionName {
   width: 18%;
   vertical-align: top;
@@ -63,12 +68,12 @@ a {
 .sectionContent {
   width: 80%;
   vertical-align: top;
-  display: inline-block
+  display: inline-block;
 }
 
 .sectionContent ul {
   padding-left: 20px;
-  margin-top: 6px;
+  margin-top: 3px;
   list-style-type: circle;
 }
 
@@ -81,15 +86,19 @@ a {
 }
 
 .sectionContent .separator {
-  height: 14px;
+  height: 12px;
+}
+
+#publications .separator {
+  height: 5px;
 }
 
 .sectionLine {
   border-style: dashed;
   border-width: 1px;
   border-color: #CFCFCF;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .divider {
@@ -104,6 +113,10 @@ a {
 
 .skillBlock {
   margin-bottom: 4px;
+}
+
+.jobBlock {
+  page-break-inside: avoid;
 }
 
 /* Media Queries */
@@ -145,14 +158,18 @@ a {
     box-shadow: none;
     -webkit-box-shadow: none;
   }
+
+  a {
+    color: black;
+  }
 }
+
 	</style>
-	
+
 	</head>
 	<body>
-	
-	<div id='resume'>
 
+	<div id='resume'>
   <div id='nameBlock' class='largeFont'>
     <span class='name'>
       Yan Wu,
@@ -161,91 +178,90 @@ a {
   </div>
   <div id='basicsBlock' class='smallFont'>
     <div class='contactBlock'>
-      <span class='email'><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="7b0f1e17141414153b1c161a121755181416">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></span>
+      <span class='email'>telooon@gmail.com</span>
         <span class='divider'>|</span>
         <span class='address'>
           San Francisco, California, US
         </span>
     </div>
-      <div id='profilesBlock'>
-            <span class='url'>
-              <a href='https://twitter.com/teloon'>https://twitter.com/teloon</a>
-            </span>
-            <span class='divider'>|</span>
-            <span class='url'>
-              <a href='https://github.com/teloon'>https://github.com/teloon</a>
-            </span>
-            
-      </div>
   </div>
   <div class='sectionLine'></div>
 
 
-  <div id='workBlock'>
+  <div id='workBlock' class="sectionBlock">
     <div class='sectionName'>
       <span>EXPERIENCE</span>
     </div>
     <div class='sectionContent'>
-      <div class='blockHeader'>
-        <span class='title'>
-          Tank Exchange Inc, Co-Founder &amp; Software Engineer
-        </span>
-        <span class='date'>
-          11/25/2015-now
-        </span>
-      </div>
-      <div><a href=''></a></div>
-      <ul class='highlights'>
-        <li>full stack engineer</li>
-      </ul>
-      <div class='separator'></div>
-      <div class='blockHeader'>
-        <span class='title'>
-          Facebook Inc, Software Engineer(Newsfeed Ranking)
-        </span>
-        <span class='date'>
-          10/07/2013-11/24/2015
-        </span>
-      </div>
-      <div><a href='https://facebook.com'>https://facebook.com</a></div>
-      <ul class='highlights'>
-        <li>full stack work from newsfeed backend services with C++(60%) to PHP/HACK web service(20%) and Android client app(10%)</li>
-        <li>Build worflow to automatically select best features for newsfeed ranking model, which greatly simplify the feature selection process and increase the frequency of model update and model freshness. (C++, Python, HACK, Hive)</li>
-        <li>Create rsvp prediction model for event join action in newsfeed, which increased more than 50% of rsvp events happening in newsfeed overtime and contributed a big part to hit the milestone of 450M people using Facebook Events[bit.ly/event450m]. (C++, HACK, Python, Hive)</li>
-        <li>Facebook Android client development: features for realtime/live newsfeed, like live comments and live likes, which drives the newsfeed experience and engagement; also build newsfeed stories with horizontal scrolling. (Android)</li>
-      </ul>
-      <div class='separator'></div>
-      <div class='blockHeader'>
-        <span class='title'>
-          Baidu Inc, Software Engineer Intern (Ads Ranking)
-        </span>
-        <span class='date'>
-          07/2012-09/2012
-        </span>
-      </div>
-      <div><a href='https://baidu.com'>https://baidu.com</a></div>
-      <ul class='highlights'>
-        <li>Full-time intern at Baidu(ECom Department), which is the biggest search engine provider in China.</li>
-        <li>Explore user targeting and interest targeting features for ads CTR prediction model. Leverage social media, like Weibo(Tweet-like service), to do user profiling by topic models, like LDA.</li>
-      </ul>
-      <div class='separator'></div>
-      <div class='blockHeader'>
-        <span class='title'>
-          YuanJiang Inc., Software Engineer
-        </span>
-        <span class='date'>
-          10/2009-04/2010
-        </span>
-      </div>
-      <div><a href=''></a></div>
-      <ul class='highlights'>
-        <li>YuanJiang was a newly founded startup back then. I was the 1st employee</li>
-        <li>Develop duplicate document detection system. (https://github.com/teloon/simpleDDD) (C++, Python and tokyo cabinet)</li>
-        <li>Full text extraction for web pages by analyzing text density. (python)</li>
-        <li>Migrate existing web service under Django framework.</li>
-      </ul>
-      
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Tank Exchange, Co-Founder &amp; Senior Software Engineer
+	        </span>
+	        <span class='date'>
+	          2015-11-25 &mdash; Present
+	        </span>
+	      </div>
+	      <div><a href='https://tankwallet.com'>https://tankwallet.com</a></div>
+	      <ul class='highlights'>
+	        <li>As one of the founding team members, design and build multiple backend services from scratch and support fast iterations of our product.</li>
+	        <li>Set up the DevOps tools for the team: Dockerize every service for the ease of local development, testing and deploy; set up CI system to automatically rolling out changes; Heavily use AWS ecosystem for load balancer, logging, monitoring, alerting etc.</li>
+	        <li>Build RESTful API service for our main product TankWallet to support authentication, search(keywords&amp;geo), payment and data CRUD. (Python, flask, mysql)</li>
+	        <li>Build CRUD API service for our trading app using GraphQL. Implement a trading client using FIX protocol. (golang, GraphQL, FIX)</li>
+	        <li>Build an exchange service with order matching engine which is fault tolerant with replay feature. Build logging pipelines with JSON format logs, so we can easily derive metrics and alerts.(C++, FIX, dynamoDB)</li>
+	        <li>Build a MarketMaker service to match orders in our exchange in order to cold-start our product. (C++)</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Facebook(Newsfeed Ranking Team), Software Engineer
+	        </span>
+	        <span class='date'>
+	          2013-10-07 &mdash; 2015-11-24
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+	      <ul class='highlights'>
+	        <li>Full stack work: newsfeed ranking system with C++(60%), PHP/HACK web service(20%) and Android client app(10%)</li>
+	        <li>Build worflow to automatically select best features for newsfeed ranking model, which greatly simplifies the feature selection process and increase the frequency of model update and model freshness. (C++, Python, HACK, Hive)</li>
+	        <li>Build rsvp prediction model for event stories in newsfeed, which increased 50% of the number of people joining events in newsfeed overtime and contributed a big part to hit the milestone of 450M people using Facebook Events[bit.ly/event450m]. (C++, HACK, Python, Hive)</li>
+	        <li>Build live comments and live likes features for newsfeed, which drive up the newsfeed experience and engagement.(Android)</li>
+	        <li>Build horizontal scrolling feature in newsfeed which requires end-to-end work. Move the project forward with PM, designer and other android developers. (Android, C++)</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Baidu Inc, Software Engineer Intern (Ads Ranking)
+	        </span>
+	        <span class='date'>
+	          2012-07-01 &mdash; 2012-09-01
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+	      <ul class='highlights'>
+	        <li>Explore user targeting and interest targeting features for ads CTR prediction model. Leverage social media, like Weibo(Tweet-like service), to do user profiling by topic models, like LDA.</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          YuanJiang Inc., Software Engineer
+	        </span>
+	        <span class='date'>
+	          2009-10-01 &mdash; 2010-04-01
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+	      <ul class='highlights'>
+	        <li>Develop full text extraction system and duplicate document detection system. Build web service using Django (C++, Python)</li>
+	      </ul>
+	      
+			</div>
     </div>
   </div>
   <div class='sectionLine'></div>
@@ -263,9 +279,6 @@ a {
           <span class='releaseDate'>2012</span>
         </span>
       </div>
-      <div class='website'>
-        <a href='http://dl.acm.org/citation.cfm?id=2348339'>http://dl.acm.org/citation.cfm?id=2348339</a>
-      </div>
       <div class='separator'></div>
       <div class='blockHeader'>
         <span class='title'>
@@ -274,9 +287,6 @@ a {
         <span class='date'>
           <span class='releaseDate'>2011</span>
         </span>
-      </div>
-      <div class='website'>
-        <a href='http://aclweb.org/anthology/I/I11/'>http://aclweb.org/anthology/I/I11/</a>
       </div>
       <div class='separator'></div>
       <div class='blockHeader'>
@@ -287,17 +297,14 @@ a {
           <span class='releaseDate'>2012</span>
         </span>
       </div>
-      <div class='website'>
-        <a href='http://www.cikm2012.org/accepted_papers.php'>http://www.cikm2012.org/accepted_papers.php</a>
-      </div>
       
     </div>
 	</div>
   <div class='sectionLine'></div>
 
-	
-	
-	<div id='education'>
+
+
+	<div id='education' class="sectionBlock">
     <div class='sectionName'>
       <span>EDUCATION</span>
     </div>
@@ -307,10 +314,10 @@ a {
           Fudan University
         </span>
         <span class='date'>
-          09/01/2010-07/01/2013
+          2010-09-01 &mdash; 2013-07-01
         </span>
         <div class=''>
-          Master Information Retrieval, Data Mining, Machine Learning
+          Master  - Information Retrieval, Data Mining, Machine Learning
         </div>
       </div>
       <div class='separator'></div>
@@ -319,18 +326,18 @@ a {
           Shanghai Jiao Tong University
         </span>
         <span class='date'>
-          09/01/2006-06/30/2013
+          2006-09-01 &mdash; 2013-06-30
         </span>
         <div class=''>
-          Bechalor Computer Science
+          Bechalor  - Computer Science
         </div>
       </div>
       
     </div>
 	</div>
   <div class='sectionLine'></div>
-	
-	<div id='skills'>
+
+	<div id='skills' class="sectionBlock">
     <div class='sectionName'>
       <span>SKILLS</span>
     </div>
@@ -338,67 +345,30 @@ a {
       <div class='skillBlock'>
         <span class='title'>Backend Development <em>(Proficient)</em>:</span>
           <span>Python</span>, 
-          <span>Java</span>, 
+          <span>Golang</span>, 
           <span>C++</span>, 
+          <span>Java</span>, 
           <span>PHP/HACK</span>, 
           <span>Thrift</span>, 
           <span>Flask</span>, 
-          <span>Django</span>
+          <span>Django</span>, 
+          <span>GraphQL</span>
       </div>
       <div class='skillBlock'>
-        <span class='title'>Web Frontend Development <em>(Small to medium project)</em>:</span>
+        <span class='title'>Web Frontend Development <em>(Small project)</em>:</span>
           <span>HTML</span>, 
           <span>CSS</span>, 
           <span>Javascript</span>
       </div>
       <div class='skillBlock'>
         <span class='title'>Android Development <em>(3 month of prior experience)</em>:</span>
-          <span>Android</span>, 
-          <span>BUCK</span>
+          <span>Android</span>
       </div>
     </div>
 	</div>
   <div class='sectionLine'></div>
 
-	<div id='languages'>
-    <div class='sectionName'>
-      <span>LANGUAGES</span>
-    </div>
-    <div class='sectionContent'>
-      <span class='language'>English</span>
-      <span class='fluency'><em>(Fluent)</em></span>
-      <span>,</span>
-      <span class='language'>Chinese</span>
-      <span class='fluency'><em>(Native)</em></span>
-      
-    </div>
-    <div class='sectionLine'></div>
-	</div>
 
-	<div id='interests'>
-    <div class='sectionName'>
-      <span>INTERESTS</span>
-    </div>
-    <div class='sectionContent'>
-      <span class='name'>Sports</span>
-      <span class='keywords'><em>[
-        Tennis
-        , 
-        Snowboarding
-        , 
-        soccer
-        
-      ]</em></span>
-      <span>,</span>
-      <span class='name'>Games</span>
-      <span class='keywords'><em>[
-        Dota 1&amp;2
-        
-      ]</em></span>
-      
-    </div>
-    <div class='sectionLine'></div>
-	</div>
-	
+
 	</body>
 </html>
