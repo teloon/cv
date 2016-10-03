@@ -21,7 +21,7 @@
       "highlights": [
         "As one of the founding team members, design and build multiple backend services from scratch and support fast iterations of our product.",
         "Set up the DevOps tools for the team: Dockerize every service for the ease of local development, testing and deploy; set up CI system to automatically rolling out changes; Heavily use AWS ecosystem for load balancer, logging, monitoring, alerting etc.",
-        "Build RESTful API service for our main product TankWallet to support authentication, search(keywords&geo), payment and data CRUD. (Python, lask, mysql)",
+        "Build RESTful API service for our main product TankWallet to support authentication, search(keywords&geo), payment and data CRUD. (Python, flask, mysql)",
         "Build CRUD API service for our trading app using GraphQL. Implement a trading client using FIX protocol. (golang, GraphQL, FIX)",
         "Build an exchange service with order matching engine which is fault tolerant with replay feature. Build logging pipelines with JSON format logs, so we can easily derive metrics and alerts.(C++, FIX, dynamoDB)",
         "Build a MarketMaker service to match orders in our exchange in order to cold-start our product. (C++)"
