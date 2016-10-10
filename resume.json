@@ -17,7 +17,7 @@
       "company": "Tank Exchange",
       "website": "https://tankwallet.com",
       "position": "Co-Founder & Senior Software Engineer",
-      "startDate": "2015-11-25",
+      "startDate": "11/25/2015",
       "highlights": [
         "As one of the founding team members, design and build multiple backend services from scratch and support fast iterations of our product.",
         "Set up the DevOps tools for the team: Dockerize every service for the ease of local development, testing and deploy; set up CI system to automatically roll out changes; Utilize AWS ecosystem for scaling, logging, monitoring, alerting etc.",
@@ -30,8 +30,8 @@
     {
       "company": "Facebook(Newsfeed Ranking Team)",
       "position": "Software Engineer",
-      "startDate": "2013-10-07",
-      "endDate": "2015-11-24",
+      "startDate": "10/07/2013",
+      "endDate": "11/24/2015",
       "highlights": [
         "Full stack work: newsfeed ranking system with C++(60%), PHP/HACK web service(30%) and Android client app(10%).",
         "Build feature selection pipelines for newsfeed ranking model, which greatly simplifies the feature selection process and increase the frequency of model update and model freshness. (C++, Python, HACK, Hive)",
@@ -44,8 +44,8 @@
     {
       "company": "Baidu Inc(Ads Ranking)",
       "position": "Software Engineer Intern",
-      "startDate": "2012-07-01",
-      "endDate": "2012-09-01",
+      "startDate": "07/01/2012",
+      "endDate": "09/01/2012",
       "highlights": [
         "Explore user targeting and interest targeting features for ads CTR prediction model. Leverage social media, like Weibo(Tweet-like service), to do user profiling by topic models, like LDA."
       ]
@@ -53,8 +53,8 @@
     {
       "company": "YuanJiang Inc.",
       "position": "Software Engineer",
-      "startDate": "2009-10-01",
-      "endDate": "2010-04-01",
+      "startDate": "10/01/2009",
+      "endDate": "04/01/2010",
       "highlights": [
         "Develop full text extraction system and duplicate document detection system. Build web service using Django (C++, Python)"
       ]
@@ -65,15 +65,15 @@
       "institution": "Fudan University",
       "area": "Information Retrieval, Data Mining",
       "studyType": "Master",
-      "startDate": "2010-09-01",
-      "endDate": "2013-07-01"
+      "startDate": "09/01/2010",
+      "endDate": "07/01/2013"
     },
     {
       "institution": "Shanghai Jiao Tong University",
       "area": "Computer Science",
       "studyType": "Bechalor",
-      "startDate": "2006-09-01",
-      "endDate": "2013-06-30"
+      "startDate": "09/01/2006",
+      "endDate": "06/30/2013"
     }
   ],
   "publications": [
