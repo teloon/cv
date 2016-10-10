@@ -23,7 +23,7 @@
         "Set up the DevOps tools for the team: Dockerize every service for the ease of local development, testing and deploy; set up CI system to automatically roll out changes; Heavily use AWS ecosystem for scaling, logging, monitoring, alerting etc.",
         "Build RESTful API service for our main product TankWallet to support authentication, search(keywords&geo), payment and data CRUD. (Python, flask, mysql)",
         "Build CRUD API service for our trading app using GraphQL. Implement a trading client using FIX protocol. (golang, GraphQL, FIX)",
-        "Build an exchange service with order matching engine which is fault tolerant with replay feature. Build logging pipelines, from which metrics and alerts are derived.(C++, FIX, dynamoDB)",
+        "Build an exchange service with order matching engine which is fault tolerant by replaying. Build logging pipelines, from which metrics and alerts are derived.(C++, FIX, dynamoDB)",
         "Build a MarketMaker service to match orders in our exchange in order to cold-start our product. (C++)"
       ]
     },
@@ -33,10 +33,10 @@
       "startDate": "2013-10-07",
       "endDate": "2015-11-24",
       "highlights": [
-        "Full stack work: newsfeed ranking system with C++(70%), PHP/HACK web service(20%) and Android client app(10%)",
-        "In charge of newsfeed story generation. Improve the newsfeed experience by optimizing the generation logic",
+        "Full stack work: newsfeed ranking system with C++(60%), PHP/HACK web service(30%) and Android client app(10%).",
         "Build worflow to automatically select best features for newsfeed ranking model, which greatly simplifies the feature selection process and increase the frequency of model update and model freshness. (C++, Python, HACK, Hive)",
         "Build rsvp prediction model for event stories in newsfeed, which increased 50% of the number of people joining events in newsfeed overtime and contributed a big part to hit the milestone of 450M people using Facebook Events[bit.ly/event450m]. (C++, HACK, Python, Hive)",
+        "In charge of newsfeed story generation. Improve the newsfeed experience by optimizing the generation behaviors.",
         "Build live comments and live likes features for newsfeed, which drive up the newsfeed experience and engagement.(Android)",
         "Build horizontal scrolling feature in newsfeed which requires end-to-end work. Move the project forward with PM, designer and other android developers. (Android, C++)"
       ]
@@ -96,7 +96,7 @@
   "skills": [
     {
       "name": "Backend Development",
-      "level": "Proficient",
+      "level": "Experienced",
       "keywords": [
         "Python",
         "Golang",
